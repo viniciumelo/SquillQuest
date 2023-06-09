@@ -27,11 +27,12 @@
 
 @font-face {
     font-family: 'MaceFonte';
-    src: url('/assets/fonts/Bee-Four.ttf') format('ttf');
+    src: url('/assets/fonts/Bee-Four.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
-
+  
   body {
     font-family: 'MaceFonte', sans-serif;
   }
+  
