@@ -56,9 +56,26 @@ const routes: Routes = [
     loadChildren: () => import('./discriminacao-page/discriminacao-page.module').then( m => m.DiscriminacaoPagePageModule)
   },
   {
+    path: 'xenofobia-page',
+    loadChildren: () => import('./xenofobia-page/xenofobia-page.module').then( m => m.XenofobiaPagePageModule)
+  },
+  {
+    path: 'lgbtqiapage',
+    loadChildren: () => import('./lgbtqiapage/lgbtqiapage.module').then( m => m.LGBTQIAPagePageModule)
+  },
+  {
+    path: 'racismo-page',
+    loadChildren: () => import('./racismo-page/racismo-page.module').then( m => m.RacismoPagePageModule)
+  },
+  {
+    path: 'sexismo-page',
+    loadChildren: () => import('./sexismo-page/sexismo-page.module').then( m => m.SexismoPagePageModule)
+  }
+  {
     path: 'tod',
     loadChildren: () => import('./tod/tod.module').then( m => m.TODPageModule)
-  },  {
+  },
+  {
     path: 'tdah',
     loadChildren: () => import('./tdah/tdah.module').then( m => m.TDAHPageModule)
   },
@@ -68,7 +85,6 @@ const routes: Routes = [
   },
 
   
-
 
 
 ];
