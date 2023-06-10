@@ -94,4 +94,26 @@ ion-img {
   bottom: 44px;;
   left: 0px;
   width: 414px;
+  z-index: 0;
+}
+
+.footer_nav{
+  background: transparent;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  bottom: 50px;
+}
+
+.footer_nav_button {
+  --background: transparent;
+}
+
+ion-button.footer_nav_button{
+  background: transparent;
+}
+
+ion-img{
+  background: transparent;
 }
