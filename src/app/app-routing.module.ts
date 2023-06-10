@@ -46,6 +46,14 @@ const routes: Routes = [
   {
     path: 'school-account',
     loadChildren: () => import('./school-account/school-account.module').then( m => m.SchoolAccountPageModule)
+  },
+  {
+    path: 'inclusao-page',
+    loadChildren: () => import('./inclusao-page/inclusao-page.module').then( m => m.InclusaoPagePageModule)
+  },
+  {
+    path: 'discriminacao-page',
+    loadChildren: () => import('./discriminacao-page/discriminacao-page.module').then( m => m.DiscriminacaoPagePageModule)
   }
 
 

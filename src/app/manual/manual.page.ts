@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import axios from 'axios';
 import { OPENAI_API_KEY } from '@constants/constants';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-tab1',
@@ -11,7 +12,7 @@ export class ManualPage {
   private isRequestPending = false;
   private requestQueue: (() => void)[] = [];
 
-  constructor() {}
+  constructor(private navCtrl: NavController) {}
 
   async fazerPergunta() {
     if (this.isRequestPending) {
@@ -71,5 +72,13 @@ export class ManualPage {
 
   delay(ms: number) {
     return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  goToInclusao() {
+    this.navCtrl.navigateForward('/inclusao-page');
+  }
+
+  goToDiscriminacao() {
+    this.navCtrl.navigateForward('/discriminacao-page');
   }
 }
