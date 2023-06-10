@@ -17,7 +17,7 @@ ion-content{
     width: 100%;
 }
 
-ion-title{
+.titulo_manual{
     font-size: 70px;
     letter-spacing: 10px;
     padding: 0px 22px;
@@ -25,20 +25,20 @@ ion-title{
     text-align: right;
     z-index: 1;
     background: transparent;
-    color: var(-ion-color-secondary-contrast);
+    color: var(--ion-color-primary-contrast);
 }
 
 #homem_manual{
     position: absolute;
     width: 100px;
     background: transparent;
-    z-index: 0;
-    left: 35%;
+    z-index: 1;
+    left: 20%;
   }
 
 #template_manual{
     background: transparent;
     position: relative;
-    top: 40px;
+    top: 0px;
     width: 520px;
 }
