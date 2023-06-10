@@ -34,6 +34,18 @@ const routes: Routes = [
   {
     path: 'converse',
     loadChildren: () => import('./converse/converse.module').then( m => m.ConversePageModule)
+  },
+  {
+    path: 'select-account',
+    loadChildren: () => import('./select-account/select-account.module').then( m => m.SelectAccountPageModule)
+  },
+  {
+    path: 'teacher-account',
+    loadChildren: () => import('./teacher-account/teacher-account.module').then( m => m.TeacherAccountPageModule)
+  },
+  {
+    path: 'school-account',
+    loadChildren: () => import('./school-account/school-account.module').then( m => m.SchoolAccountPageModule)
   }
 
 

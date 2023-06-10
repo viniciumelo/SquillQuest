@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
-import { CreateAccountPage } from '../create-account/create-account.page';
+import { SelectAccountPage } from '../select-account/select-account.page';
 
 @Component({
   selector: 'app-login',
@@ -17,7 +17,7 @@ export class LoginPage implements OnInit {
   }
 
   goToCreateAccount() {
-    this.navCtrl.navigateForward('/create-account');
+    this.navCtrl.navigateForward('/select-account');
   }
 
 }
