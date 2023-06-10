@@ -7,6 +7,18 @@
     <ion-title>CONVERSE</ion-title>
     <ion-img id="template_converse" src=".\assets\images\template_converse.png">CONVERSE</ion-img>
 
+
+    <ion-list id = "contatos">
+      <ion-button>
+          <ion-img class ="icone_rede_social" slot="icon-only" src=".\assets\images\telegram_icon.png"></ion-img>
+        Grupo Telegram
+      </ion-button>
+      <ion-button>
+          <ion-img class ="icone_rede_social" slot="icon-only" src=".\assets\images\discord_icon.png"></ion-img>
+        Grupo Discord
+      </ion-button>
+    </ion-list>  
+
     <ion-list>
       <ion-item class="input_denuncia">
         <ion-input label="Nome"></ion-input>
@@ -24,6 +36,9 @@
           <ion-select-option value="Denuncia">Denuncia</ion-select-option>
         </ion-select>
       </ion-item>
+
+      
+      <ion-button class="enviar">Enviar</ion-button>
     </ion-list>
-    
+
 </ion-content>

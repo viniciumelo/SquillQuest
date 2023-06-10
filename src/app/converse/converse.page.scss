@@ -45,9 +45,38 @@
   }
 
 ion-list .input_denuncia{
-    padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
   }
 
   #multiline {
     white-space: normal;
+  }
+
+  #contatos {
+    display: flex;
+  }
+
+  #contatos ion-button{
+    text-shadow: 2px;
+    font-size: 36px;
+    padding-top:30px;
+    width: 200px;
+    height: 60px;
+    z-index: 0;
+  }
+
+  ion-img.icone_rede_social {
+    background: transparent;
+    width: 30px;
+    padding-right: 5px;
+  }
+  
+  ion-button.enviar{
+    width: 95%;
+    height: 70px;
+    padding-left: 20px;
   }
