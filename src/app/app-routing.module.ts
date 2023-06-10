@@ -54,7 +54,21 @@ const routes: Routes = [
   {
     path: 'discriminacao-page',
     loadChildren: () => import('./discriminacao-page/discriminacao-page.module').then( m => m.DiscriminacaoPagePageModule)
-  }
+  },
+  {
+    path: 'tod',
+    loadChildren: () => import('./tod/tod.module').then( m => m.TODPageModule)
+  },  {
+    path: 'tdah',
+    loadChildren: () => import('./tdah/tdah.module').then( m => m.TDAHPageModule)
+  },
+  {
+    path: 'autismo',
+    loadChildren: () => import('./autismo/autismo.module').then( m => m.AutismoPageModule)
+  },
+
+  
+
 
 
 ];
