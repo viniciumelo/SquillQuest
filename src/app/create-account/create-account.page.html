@@ -1,13 +1,31 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>create-account</ion-title>
+    <ion-title>Cadastro Aluno</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">create-account</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-list class="navegacao">
+    <ion-item>
+      <ion-label position="floating">Nome</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">E-mail</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Escola</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Senha</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="full" class="button_navegacao">Enviar</ion-button>
 </ion-content>
