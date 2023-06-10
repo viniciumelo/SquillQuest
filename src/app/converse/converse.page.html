@@ -7,6 +7,23 @@
     <ion-title>CONVERSE</ion-title>
     <ion-img id="template_converse" src=".\assets\images\template_converse.png">CONVERSE</ion-img>
 
-    <ion-input> oi </ion-input>
+    <ion-list>
+      <ion-item class="input_denuncia">
+        <ion-input label="Nome"></ion-input>
+      </ion-item>
+    
+      <ion-item class="input_denuncia">
+        <ion-textarea id="multiline" rows="1">
+          <ion-input label="" labelPlacement="stacked" placeholder="Me diga "></ion-input>
+        </ion-textarea>
+      </ion-item>
+      
+      <ion-item>
+        <ion-select aria-label="" placeholder="Do que se trata?">
+          <ion-select-option value="Desabafo">Desabafo</ion-select-option>
+          <ion-select-option value="Denuncia">Denuncia</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
     
 </ion-content>
