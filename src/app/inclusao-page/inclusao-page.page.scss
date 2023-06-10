@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Bee Four";
+    src: url("/assets/fonts/Bee-Four.ttf");
+}
+
+* {
+    border: none;
+    background-color: var(--ion-color-primary-contrast);
+    font-family: "Bee Four", sans-serif;
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding: 0px;
+}
+
+#titulo_inclusao{
+    color: var(--ion-color-primary-contrast);
+    background: transparent;
+    position: absolute;
+    font-size: 150px;
+    word-spacing: 200px;
+    text-align: left;
+    top: -350px;
+    z-index: 1;
+    right: 100px;
+}
+
+#template_inclusao{
+    position: relative;
+    background: transparent;
+    z-index: 0;
+    background-size: cover
+}
+
+#mulher_inclusao{
+    background: transparent;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100px;
+    z-index: 1;
+}
+
+.navegacao_inclusao{
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+    font-size: 52px;
+    word-spacing: 10px;
+}

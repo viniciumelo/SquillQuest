@@ -70,7 +70,21 @@ const routes: Routes = [
   {
     path: 'sexismo-page',
     loadChildren: () => import('./sexismo-page/sexismo-page.module').then( m => m.SexismoPagePageModule)
-  }
+  },
+  {
+    path: 'tod',
+    loadChildren: () => import('./tod/tod.module').then( m => m.TODPageModule)
+  },
+  {
+    path: 'tdah',
+    loadChildren: () => import('./tdah/tdah.module').then( m => m.TDAHPageModule)
+  },
+  {
+    path: 'autismo',
+    loadChildren: () => import('./autismo/autismo.module').then( m => m.AutismoPageModule)
+  },
+
+  
 
 
 ];

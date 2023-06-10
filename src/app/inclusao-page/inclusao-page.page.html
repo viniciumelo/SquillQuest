@@ -1,13 +1,14 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>InclusaoPage</ion-title>
-  </ion-toolbar>
+<ion-header>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">InclusaoPage</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+    <ion-title id="titulo_inclusao">Inclusão</ion-title>
+    <ion-img id="template_inclusao" src=".\assets\images\template_cuidese.png"></ion-img>
+    <ion-img id="mulher_inclusao"src=".\assets\images\mulher_pag_inicial.png"></ion-img>
+
+    <ion-list class="navegacao_inclusao">
+      <ion-button [routerLink] = "['tdah']">TDAH</ion-button>
+      <ion-button [routerLink] = "['tod']">TOD</ion-button>
+      <ion-button [routerLink] = "['autismo']">AUTISMO</ion-button>
+    </ion-list>
 </ion-content>
