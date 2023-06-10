@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Bee Four";
+    src: url("/assets/fonts/Bee-Four.ttf");
+}
+
+* {
+    border: none;
+    background-color: var(--ion-color-primary-contrast);
+    font-family: "Bee Four", sans-serif;
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    padding: 0px;
+}
+
+ion-content{
+    width: 100%;
+}
+
+.titulo_manual{
+    font-size: 70px;
+    letter-spacing: 10px;
+    padding: 0px 22px;
+    height: 70px;
+    text-align: right;
+    z-index: 1;
+    background: transparent;
+    color: var(--ion-color-primary-contrast);
+}
+
+#homem_manual{
+    position: absolute;
+    width: 100px;
+    background: transparent;
+    z-index: 1;
+    left: 20%;
+  }
+
+#template_manual{
+    background: transparent;
+    position: relative;
+    top: 0px;
+    width: 520px;
+}
