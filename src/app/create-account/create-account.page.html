@@ -8,24 +8,24 @@
   <ion-list class="navegacao">
     <ion-item>
       <ion-label position="floating">Nome</ion-label>
-      <ion-input type="text"></ion-input>
+      <ion-input type="text" [(ngModel)]="name"></ion-input>
     </ion-item>
 
     <ion-item>
       <ion-label position="floating">E-mail</ion-label>
-      <ion-input type="email"></ion-input>
+      <ion-input type="email" [(ngModel)]="email"></ion-input>
     </ion-item>
 
     <ion-item>
       <ion-label position="floating">Escola</ion-label>
-      <ion-input type="text"></ion-input>
+      <ion-input type="text" [(ngModel)]="school"></ion-input>
     </ion-item>
 
     <ion-item>
       <ion-label position="floating">Senha</ion-label>
-      <ion-input type="password"></ion-input>
+      <ion-input type="password" [(ngModel)]="password"></ion-input>
     </ion-item>
   </ion-list>
 
-  <ion-button expand="full" class="button_navegacao">Enviar</ion-button>
+  <ion-button expand="full" class="button_navegacao" (click)="createAccount()">Enviar</ion-button>
 </ion-content>
