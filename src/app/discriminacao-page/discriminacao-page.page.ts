@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-discriminacao-page',
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DiscriminacaoPagePage implements OnInit {
 
-  constructor() { }
+  constructor(private navCtrl: NavController) { }
 
   ngOnInit() {
+  }
+  goToXenofobia(){
+    this.navCtrl.navigateForward('/xenofobia-page');
+  }
+  goToLgbtqia(){
+    this.navCtrl.navigateForward('/lgbtqiapage');
+  }
+  goToRacismo() {
+    this.navCtrl.navigateForward('/racismo-page');
+  }
+
+  goToSexismo() {
+    this.navCtrl.navigateForward('/sexismo-page');
   }
 
 }
