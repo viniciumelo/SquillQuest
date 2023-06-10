@@ -10,21 +10,31 @@
   font-size: 50px;
 }
 
+ion-title{
+  right: 10px;
+  text-align: right;
+  letter-spacing: 2px;
+}
+
 ion-button{
   --border-radius: 100px;
   --background-color: var(--ion-color-primary-contrast); 
   height: 90px;
   margin: 10px;
+  letter-spacing: 10px;
 }
 
-//ion-container{
-  //display: flex;
-  //flex-direction: column;
-  //justify-content: space-between;
-  //position: fixed;
-  //height: 100%;
-//}
+ion-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  height: 100%;
+}
 
+ion-list {
+  padding-top: 50px;
+}
 
 ion-list .button_navegacao{
   display: flex;
@@ -48,11 +58,20 @@ ion-img {
 
 #homem_pag_inicial {
   position: absolute;
-  top: 10%;
+  left: 0px;
+  top: 0px;
   background: transparent;
-  width: 325px;
   z-index: 1;
+  width: 110px;
+}
 
+#mulher_pag_inicial{
+  position: absolute;
+  right: 30px;
+  top: 110px;
+  background: transparent;
+  z-index: 3;
+  width: 110px;
 }
 
 #manual{
@@ -61,9 +80,18 @@ ion-img {
 }
 
 #cuide{
+  background-size: cover;
   z-index: 2;
 }
 
 #converse{
-  z-index: 1;
+  background-size: cover;
+  z-index: 4;
+}
+
+#template{
+  position: absolute;
+  bottom: 44px;;
+  left: 0px;
+  width: 414px;
 }
