@@ -2,6 +2,9 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "paths": {
+      "@constants/*": ["src/app/constants.ts"]
+    },
     "outDir": "./out-tsc/spec",
     "types": [
       "jasmine"

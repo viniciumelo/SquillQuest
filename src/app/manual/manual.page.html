@@ -1,17 +1,11 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      manual
-    </ion-title>
+    <ion-title>Manual</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">manual</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="manual"></app-explore-container>
+<ion-content>
+  <ion-list class="navegacao">
+    <ion-button (click)="fazerPergunta()">TOD</ion-button>
+  </ion-list>
 </ion-content>
