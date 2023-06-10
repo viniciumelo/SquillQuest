@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Bee Four";
+    src: url("/assets/fonts/Bee-Four.ttf");
+  }
+  
+  * {
+    border: none;
+    background-color: var(--ion-color-primary-contrast);
+    font-family: "Bee Four", sans-serif;
+    font-size: 50px;
+  }
+  
+  ion-title{
+    right: 10px;
+    text-align: right;
+    letter-spacing: 2px;
+  }
+  
+  ion-button{
+    --border-radius: 100px;
+    --background-color: var(--ion-color-primary-contrast); 
+    height: 90px;
+    margin: 10px;
+    letter-spacing: 10px;
+  }
+  
+  ion-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    height: 100%;
+  }
+  
+  ion-list {
+    padding-top: 50px;
+  }
+  
+  ion-list .button_navegacao{
+    display: flex;
+    flex-direction: column;
+    top: 200px;
+    width: 100%;
+    word-spacing: 55px;
+  }
+  
+  .button_navegacao {
+    padding-right: 12px;
+  }
+  
