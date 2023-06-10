@@ -54,6 +54,22 @@ const routes: Routes = [
   {
     path: 'discriminacao-page',
     loadChildren: () => import('./discriminacao-page/discriminacao-page.module').then( m => m.DiscriminacaoPagePageModule)
+  },
+  {
+    path: 'xenofobia-page',
+    loadChildren: () => import('./xenofobia-page/xenofobia-page.module').then( m => m.XenofobiaPagePageModule)
+  },
+  {
+    path: 'lgbtqiapage',
+    loadChildren: () => import('./lgbtqiapage/lgbtqiapage.module').then( m => m.LGBTQIAPagePageModule)
+  },
+  {
+    path: 'racismo-page',
+    loadChildren: () => import('./racismo-page/racismo-page.module').then( m => m.RacismoPagePageModule)
+  },
+  {
+    path: 'sexismo-page',
+    loadChildren: () => import('./sexismo-page/sexismo-page.module').then( m => m.SexismoPagePageModule)
   }
 
 
